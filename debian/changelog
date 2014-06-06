@@ -1,7 +1,7 @@
-cabrio (0.8.2-0ubuntu1) unstable; urgency=low
+cabrio (0.8.3-1) unstable; urgency=low
 
   * Fredbcode git version (commit #246)
-  * Bump some of debian standard
+  * Updated some of debian standard, fixed some lintian warnings/errors
 
  -- Sérgio Benjamim <sergio_br2@yahoo.com.br>  Fri, 06 Jun 2014 15:00:00 +0100
 
