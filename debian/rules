@@ -47,7 +47,7 @@ install: build
 	dh_prep
 	#dh_clean -k
 	dh_installdirs
-	
+
 	# Add here commands to install the package into debian/cabrio.
 	$(MAKE) DESTDIR=$(CURDIR)/debian/cabrio \
 		BIN_DIR=$(CURDIR)/debian/cabrio/usr/bin \
