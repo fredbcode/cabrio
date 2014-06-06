@@ -54,6 +54,7 @@ install: build
 		DATA_DIR=$(CURDIR)/debian/cabrio/usr/share/cabrio \
 		install
 	#$(MAKE) -C builddir DESTDIR=$(CURDIR)/debian/cabrio install
+	rm $(CURDIR)/debian/cabrio/usr/share/cabrio/fonts/FreeSans.ttf
 
 # Build architecture-independent files here.
 binary-indep: build install
